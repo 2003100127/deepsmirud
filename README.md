@@ -32,7 +32,9 @@ pip install deepsmirud
 
 If you install the software using pip install deepsmirud, you might have the problem like this.
 
+```angular2html
 AttributeError: module 'numpy' has no attribute 'int'.
+```
 
 This is becasue in NumPy version >1.23, it scraped the use of np.int, you can solve it by lowering the version of NumPy to 1.23 after DeepsmirUD is installed, like this
 
