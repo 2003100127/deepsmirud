@@ -5,8 +5,8 @@ __license__ = "MIT"
 __email__ = "jianfeng.sunmt@gmail.com"
 __maintainer__ = "Jianfeng Sun"
 
-import urllib.request
 import click
+import urllib.request
 from pyfiglet import Figlet
 from deepsmirud.Run import predict
 

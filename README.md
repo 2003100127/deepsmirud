@@ -30,6 +30,16 @@ This repository is a standalone package of the DeepsmirUD method. DeepsmirUD is 
 pip install deepsmirud
 ```
 
+If you install the software using pip install deepsmirud, you might have the problem like this.
+
+AttributeError: module 'numpy' has no attribute 'int'.
+
+This is becasue in NumPy version >1.23, it scraped the use of np.int, you can solve it by lowering the version of NumPy to 1.23 after DeepsmirUD is installed, like this
+
+```angular2html
+pip installl numpy=1.23
+```
+
 * ### Conda (*python 3.7)
 
 ```
@@ -82,7 +92,14 @@ deepsmirud_download -o /the/path/you/prefer/model.zip
 downloading...
 downloaded!
 ```
-Please use `-mf` of `deepsmirud` then to access to where the models are located.
+Please use `-mf` of `deepsmirud` then to access to where the models are located. The four models, AlexNet, BiRNN, RNN, and Seq2Seq, were trained by tensorflow version 1x. If you want to use the four, please claiming a doubled model name for the `-mf` tag. For example, 
+```angular2html
+-mf ./birnn/birnn
+-mf ./alexnet/alexnet
+-mf ./birnn/birnn
+-mf ./birnn/birnn
+```
+
 
 ### Input format
 Two example files in DeepsmirUD are 5757.txt and MIMAT0000066.fasta for a small molecule and a miRNA molecule.
