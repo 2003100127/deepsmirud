@@ -15,27 +15,49 @@ site:
     hide_toc: true
     outline_maxdepth: 2
   nav:
+#    - title: Home
+#      url: /index
+#    - title: Spotlight
+#      url: /spotlight
+#    - title: Versions
+#      url: /versions
+#    - title: About
+#      children:
+#        - title: Developer
+#          url: /developer
+#        - title: Publication
+#          url: /publication
+#    - title: Tutorial
+#      children:
+#        - title: Installation
+#          url: /installation
+#        - title: Data
+#          url: /data
+#        - title: Model
+#          url: /model
+#        - title: Prediction
+#          url: /prediction
     - title: Home
       url: /index
     - title: Spotlight
-      url: /spotlight
+      url: /deepsmirud/spotlight
     - title: Versions
-      url: /versions
+      url: /deepsmirud/versions
     - title: About
       children:
         - title: Developer
-          url: /developer
+          url: /deepsmirud/developer
         - title: Publication
-          url: /publication
+          url: /deepsmirud/publication
     - title: Tutorial
       children:
         - title: Installation
-          url: /installation
+          url: /deepsmirud/installation
         - title: Data
-          url: /data
+          url: /deepsmirud/data
         - title: Model
-          url: /model
+          url: /deepsmirud/model
         - title: Prediction
-          url: /prediction
+          url: /deepsmirud/prediction
 bibliography:
   - jsun.bib
