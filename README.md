@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/2003100127/deepsmirud/blob/main/docs/img/deepsmirud-logo.png?raw=true" width="200" height="55">
+    <img src="https://github.com/2003100127/deepsmirud/blob/main/docs/img/deepsmirud-logo.png?raw=true" width="200" height="60">
     <br>
 </h1>
 
